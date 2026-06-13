@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Tally</title>
+  <meta name="description" content="How Tally handles your data.">
+  <style>
+    :root {
+      --fg: #1a1a1a;
+      --muted: #565656;
+      --bg: #ffffff;
+      --rule: #e6e6e6;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 36px 0 10px;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 8px 0 0;
+    }
+    p { margin: 0 0 16px; }
+    section p { color: var(--muted); }
+    ul {
+      margin: 0 0 16px;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+    li { margin: 4px 0; }
+    li b { color: var(--fg); font-weight: 600; }
+    .intro { margin-top: 28px; }
+    a { color: var(--fg); }
+    hr { border: 0; border-top: 1px solid var(--rule); margin: 28px 0 0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #f2f2f2; --muted: #a8a8a8; --bg: #121212; --rule: #2a2a2a; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 7, 2026</p>
+
+    <p class="intro">
+      Tally is a read-only personal-finance app for tracking your household's accounts,
+      transactions, budgets, and goals. Tally can view your financial data but never moves
+      money, makes payments, or transfers funds. This policy explains what data Tally handles
+      and why. Tally does not sell your data, does not use it for advertising, and does not
+      track you across other apps or websites.
+    </p>
+
+    <section>
+      <h2>What we collect</h2>
+      <ul>
+        <li><b>Account information</b>: your name, email address, and a unique user ID, used to sign you in and identify your account (via email/password or Google Sign-In).</li>
+        <li><b>Financial information</b>: account balances and transactions retrieved from financial institutions you choose to connect (through SimpleFIN), plus any accounts or transactions you enter manually.</li>
+        <li><b>Content you create</b>: categories, budgets, goals, and notes you add.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How it's used and stored</h2>
+      <p>
+        Your data is used only to provide the app's features, showing you your finances.
+        It is stored in our backend database (Supabase) and scoped to your household, so it is
+        visible only to members of your household. The read-only credential used to fetch your
+        bank data is stored encrypted and is never stored on your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>Third-party services</h2>
+      <ul>
+        <li><b>Supabase</b>: authentication and data storage.</li>
+        <li><b>SimpleFIN</b>: read-only aggregation of your connected bank accounts.</li>
+        <li><b>Google Sign-In</b>: optional sign-in.</li>
+      </ul>
+      <p>
+        These providers process data only to deliver their part of the service. We do not share
+        your data with anyone for marketing.
+      </p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <p>
+        You can disconnect accounts, delete transactions and accounts, and request deletion of
+        your account and associated data at any time by contacting us.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy or your data:
+        <a href="mailto:paulaeenger@gmail.com">paulaeenger@gmail.com</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
